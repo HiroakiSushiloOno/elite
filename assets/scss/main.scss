@@ -306,7 +306,7 @@ a{
 ========================================================================== */
 .section-about-us{
   width: $section-width;
-  padding: $spacer $section-spacer;
+  padding: $spacer $section-spacer ($spacer * 2) $section-spacer;
   text-align: center;
   .section-about-us__title{
     font-size: $font-size-middle;

@@ -331,7 +331,7 @@ a {
 ========================================================================== */
 .section-about-us {
   width: 90%;
-  padding: 20px 5%;
+  padding: 20px 5% 40px 5%;
   text-align: center;
 }
 .section-about-us .section-about-us__title {
