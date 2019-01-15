@@ -415,6 +415,7 @@ a{
     z-index: 100;
     -webkit-transition: opacity 1.5s; /* Safari */
     transition: opacity 1.5s;
+    object-fit: cover;
   }
   .section-portfolio__row__block__image{
     height: 600px;
