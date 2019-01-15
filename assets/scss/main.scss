@@ -491,6 +491,7 @@ a{
   padding: 0 $section-spacer $spacer $section-spacer;
   .section-contact__title-block{
     background: url('../images/bg_contact.png') no-repeat;
+    background-size: 100% 160px;
     text-align: center;
     padding-top: ($spacer * 3);
     height: 100px;
