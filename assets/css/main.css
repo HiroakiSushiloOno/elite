@@ -220,16 +220,16 @@ a {
   background: #F3F3F3;
   color: #2D388B; }
   .header .header__logo .header__logo__image {
-    width: 100px; }
+    width: 200px; }
   .header .header__logo {
     margin: 0; }
   .header .header__nav {
-    width: calc(90% - 100px);
+    width: calc(90% - 200px);
     margin-left: 80px; }
     .header .header__nav .header__nav__unordered-list {
       width: 100%;
       display: flex;
-      justify-content: space-between; }
+      justify-content: flex-end; }
       .header .header__nav .header__nav__unordered-list .header__nav__unordered-list__item {
         color: #2D388B; }
         .header .header__nav .header__nav__unordered-list .header__nav__unordered-list__item .header__nav__unordered-list__item__icon {

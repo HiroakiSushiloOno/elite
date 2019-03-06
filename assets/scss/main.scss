@@ -225,19 +225,19 @@ a{
   color: $basic-color-blue;
   .header__logo{
     .header__logo__image{
-      width: 100px;
+      width: 200px;
     }
   }
   .header__logo{
     margin:  0;
   }
   .header__nav{
-    width: calc(90% - 100px);
+    width: calc(90% - 200px);
     margin-left: ($spacer * 4);
     .header__nav__unordered-list{
       width: 100%;
       display: flex;
-      justify-content: space-between;
+      justify-content: flex-end;
       .header__nav__unordered-list__item{
         color: $basic-color-blue;
         .header__nav__unordered-list__item__icon{
