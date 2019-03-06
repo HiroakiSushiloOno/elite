@@ -218,28 +218,29 @@ a{
    Header Styling
 ========================================================================== */
 .header{
-  padding: $spacer $section-spacer;
+  padding: 0 $section-spacer;
   width: $section-width;
   display: flex;
   background: $basic-color-cream;
   color: $basic-color-blue;
   .header__logo{
     .header__logo__image{
-      width: 200px;
+      width: 80px;
     }
   }
   .header__logo{
     margin:  0;
   }
   .header__nav{
-    width: calc(90% - 200px);
-    margin-left: ($spacer * 4);
+    width: calc(90% - 80px);
     .header__nav__unordered-list{
       width: 100%;
       display: flex;
       justify-content: flex-end;
       .header__nav__unordered-list__item{
         color: $basic-color-blue;
+        margin: 0;
+        padding-left: 5%;
         .header__nav__unordered-list__item__icon{
           margin-right: 10px;
         }
