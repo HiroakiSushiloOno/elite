@@ -294,6 +294,7 @@ a{
   text-align: center;
   background: url(../images/bg_pattern.jpg);
   background-size: 100%;
+  border-bottom: ($spacer * 2) $basic-color-blue solid;
   .section-company__title{
     font-size: $font-size-middle;
     color: $basic-color-blue;

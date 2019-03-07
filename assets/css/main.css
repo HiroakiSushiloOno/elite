@@ -276,7 +276,8 @@ a {
   padding: 20px 5% 40px 5%;
   text-align: center;
   background: url(../images/bg_pattern.jpg);
-  background-size: 100%; }
+  background-size: 100%;
+  border-bottom: 40px #2D388B solid; }
   .section-company .section-company__title {
     font-size: 2em;
     color: #2D388B;
