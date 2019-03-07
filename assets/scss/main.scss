@@ -223,6 +223,9 @@ a{
   display: flex;
   background: $basic-color-cream;
   color: $basic-color-blue;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
   .header__logo{
     .header__logo__image{
       width: 80px;

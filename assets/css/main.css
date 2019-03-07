@@ -218,7 +218,11 @@ a {
   width: 90%;
   display: flex;
   background: #F3F3F3;
-  color: #2D388B; }
+  color: #2D388B;
+  position: -webkit-sticky;
+  /* Safari */
+  position: sticky;
+  top: 0; }
   .header .header__logo .header__logo__image {
     width: 80px; }
   .header .header__logo {
