@@ -274,11 +274,26 @@ a {
 .section-company {
   width: 90%;
   padding: 20px 5% 40px 5%;
-  text-align: center; }
+  text-align: center;
+  background: url(../images/bg_pattern.jpg);
+  background-size: 100%; }
   .section-company .section-company__title {
-    font-size: 2em; }
-  .section-company .section-company__block {
-    text-align: center; }
+    font-size: 2em;
+    color: #2D388B;
+    font-weight: bold; }
+  .section-company .section-company__contents-block {
+    width: 100%;
+    display: flex; }
+    .section-company .section-company__contents-block .section-company__left-block {
+      width: 60%;
+      text-align: left; }
+      .section-company .section-company__contents-block .section-company__left-block .section-company__subtitle {
+        color: #2D388B;
+        font-weight: bold; }
+    .section-company .section-company__contents-block .section-company__right-block {
+      width: 40%; }
+      .section-company .section-company__contents-block .section-company__right-block .section-company__right-block__img {
+        width: 70%; }
 
 /* ==========================================================================
    Section Services Styling
