@@ -290,7 +290,10 @@ a {
       text-align: left; }
       .section-company .section-company__contents-block .section-company__left-block .section-company__subtitle {
         color: #2D388B;
-        font-weight: bold; }
+        font-weight: bold;
+        margin-bottom: 0; }
+      .section-company .section-company__contents-block .section-company__left-block .section-company__left-block__text {
+        margin-top: 0px; }
     .section-company .section-company__contents-block .section-company__right-block {
       width: 40%; }
       .section-company .section-company__contents-block .section-company__right-block .section-company__right-block__img {
@@ -301,33 +304,16 @@ a {
 ========================================================================== */
 .section-services {
   width: 90%;
-  padding: 20px 0;
-  margin: 0 5%;
-  background: url("./assets/images/bg_services.png");
-  text-align: center;
-  background: black; }
+  padding: 20px 5% 40px 5%;
+  background: url(../images/bg_pattern.jpg);
+  background-size: 100%;
+  border-bottom: 40px #2D388B solid; }
   .section-services .section-services__title-block {
-    width: 100%; }
+    text-align: center; }
     .section-services .section-services__title-block .section-services__title-block__title {
-      font-size: 2em;
       font-weight: bold;
-      color: white; }
-  .section-services .section-services__block {
-    display: flex;
-    justify-content: space-around; }
-    .section-services .section-services__block .section-services__block__item {
-      text-align: center;
-      width: 200px; }
-      .section-services .section-services__block .section-services__block__item .section-services__block__item__photo {
-        width: 120px;
-        height: 120px;
-        border-radius: 50%;
-        border: 2px solid white;
-        margin: 0 auto; }
-    .section-services .section-services__block .section-services__block__item:nth-child(odd) {
-      padding-top: 150px; }
-    .section-services .section-services__block .section-services__block__item:nth-child(even) {
-      padding-bottom: 150px; }
+      color: #2D388B;
+      font-size: 2em; }
 
 /* ==========================================================================
    Section Constact Styling

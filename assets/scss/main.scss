@@ -309,6 +309,10 @@ a{
       .section-company__subtitle{
         color: $basic-color-blue;
         font-weight: bold;
+        margin-bottom: 0;
+      }
+      .section-company__left-block__text{
+        margin-top: 0px;
       }
     }
     .section-company__right-block{
@@ -324,41 +328,16 @@ a{
 ========================================================================== */
 .section-services{
   width: $section-width;
-  padding: $spacer 0;
-  margin: 0 $section-spacer;
-  background: url('./assets/images/bg_services.png');
-  text-align: center;
-  background: black;
+  padding: $spacer $section-spacer ($spacer * 2) $section-spacer;
+  background: url(../images/bg_pattern.jpg);
+  background-size: 100%;
+  border-bottom: ($spacer * 2) $basic-color-blue solid;
   .section-services__title-block{
-    width: 100%;
+    text-align: center;
     .section-services__title-block__title{
-      font-size: $font-size-middle;
       font-weight: bold;
-      color: white;
-    }
-  }
-  .section-services__block{
-    display: flex;
-    justify-content: space-around;
-    .section-services__block__item{
-      text-align: center;
-      width: 200px;
-      .section-services__block__item__photo{
-        width: 120px;
-        height: 120px;
-        border-radius: 50%;
-        border: 2px solid white;
-        margin: 0 auto;
-      }
-      .section-services__block__item__title{
-
-      }
-    }
-    .section-services__block__item:nth-child(odd){
-      padding-top: 150px;
-    }
-    .section-services__block__item:nth-child(even){
-      padding-bottom: 150px;
+      color: $basic-color-blue;
+      font-size: $font-size-middle;
     }
   }
 }
