@@ -367,23 +367,21 @@ a{
 ========================================================================== */
 .section-contact{
   width: $section-width;
-  padding: 0 $section-spacer $spacer $section-spacer;
+  padding: $spacer $section-spacer ($spacer * 2) $section-spacer;
+  background: url(../images/bg_pattern.jpg);
+  background-size: 100%;
   .section-contact__title-block{
-    background: url('../images/bg_contact.png') no-repeat;
-    background-size: 100% 160px;
     text-align: center;
-    padding-top: ($spacer * 3);
-    height: 100px;
     .section-contact__title-block__title{
-      color: white;
+      font-weight: bold;
+      color: $basic-color-blue;
       font-size: $font-size-middle;
-      margin: 0;
     }
   }
   .section-contact__main-block{
     display: flex;
     .section-contact__main-block__form-area{
-      background: black;
+      background: $basic-color-blue;
       width: 60%;
       text-align: center;
       padding: ($spacer * 2) 0;
@@ -400,9 +398,9 @@ a{
         background: $basic-color-cream;
       }
       .section-contact__main-block__form-area__btn{
-        background: $basic-color-red;
+        background: white;
         border: none;
-        color: white;
+        color: $basic-color-blue;
         font-weight: bold;
         padding: 5px 15px;
         border-radius: 5px;
@@ -412,6 +410,7 @@ a{
       width: calc(40% - 40px);
       padding: ($spacer * 2) 0 ($spacer * 2) ($spacer * 2);
       background: $basic-color-cream;
+      color: $basic-color-blue;
       .section-contact__main-block__info-area__name{
         font-weight: bold;
       }
@@ -424,7 +423,10 @@ a{
         margin-left: 0;
         padding-left: 0;
         .section-contact__main-block__info-area__unordered-list__item{
-          font-size: $font-size-large;
+          font-size: $font-size-middle;
+          a{
+            color: $basic-color-blue;
+          }
         }
       }
     }

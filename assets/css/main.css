@@ -334,21 +334,19 @@ a {
 ========================================================================== */
 .section-contact {
   width: 90%;
-  padding: 0 5% 20px 5%; }
+  padding: 20px 5% 40px 5%;
+  background: url(../images/bg_pattern.jpg);
+  background-size: 100%; }
   .section-contact .section-contact__title-block {
-    background: url("../images/bg_contact.png") no-repeat;
-    background-size: 100% 160px;
-    text-align: center;
-    padding-top: 60px;
-    height: 100px; }
+    text-align: center; }
     .section-contact .section-contact__title-block .section-contact__title-block__title {
-      color: white;
-      font-size: 2em;
-      margin: 0; }
+      font-weight: bold;
+      color: #2D388B;
+      font-size: 2em; }
   .section-contact .section-contact__main-block {
     display: flex; }
     .section-contact .section-contact__main-block .section-contact__main-block__form-area {
-      background: black;
+      background: #2D388B;
       width: 60%;
       text-align: center;
       padding: 40px 0; }
@@ -363,16 +361,17 @@ a {
         width: 70%;
         background: #F3F3F3; }
       .section-contact .section-contact__main-block .section-contact__main-block__form-area .section-contact__main-block__form-area__btn {
-        background: #C42B2B;
+        background: white;
         border: none;
-        color: white;
+        color: #2D388B;
         font-weight: bold;
         padding: 5px 15px;
         border-radius: 5px; }
     .section-contact .section-contact__main-block .section-contact__main-block__info-area {
       width: calc(40% - 40px);
       padding: 40px 0 40px 40px;
-      background: #F3F3F3; }
+      background: #F3F3F3;
+      color: #2D388B; }
       .section-contact .section-contact__main-block .section-contact__main-block__info-area .section-contact__main-block__info-area__name {
         font-weight: bold; }
       .section-contact .section-contact__main-block .section-contact__main-block__info-area .section-contact__main-block__info-area__mail-and-phone {
@@ -383,6 +382,8 @@ a {
         margin-left: 0;
         padding-left: 0; }
         .section-contact .section-contact__main-block .section-contact__main-block__info-area .section-contact__main-block__info-area__unordered-list .section-contact__main-block__info-area__unordered-list__item {
-          font-size: 4em; }
+          font-size: 2em; }
+          .section-contact .section-contact__main-block .section-contact__main-block__info-area .section-contact__main-block__info-area__unordered-list .section-contact__main-block__info-area__unordered-list__item a {
+            color: #2D388B; }
 
 /*# sourceMappingURL=main.css.map */
