@@ -408,7 +408,7 @@ a{
     }
     .section-contact__main-block__info-area{
       width: calc(40% - 40px);
-      padding: ($spacer * 2) 0 ($spacer * 2) ($spacer * 2);
+      padding: ($spacer * 2);
       background: $basic-color-cream;
       color: $basic-color-blue;
       .section-contact__main-block__info-area__name{
@@ -419,7 +419,7 @@ a{
       }
       .section-contact__main-block__info-area__unordered-list{
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
         margin-left: 0;
         padding-left: 0;
         .section-contact__main-block__info-area__unordered-list__item{

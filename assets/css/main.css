@@ -369,7 +369,7 @@ a {
         border-radius: 5px; }
     .section-contact .section-contact__main-block .section-contact__main-block__info-area {
       width: calc(40% - 40px);
-      padding: 40px 0 40px 40px;
+      padding: 40px;
       background: #F3F3F3;
       color: #2D388B; }
       .section-contact .section-contact__main-block .section-contact__main-block__info-area .section-contact__main-block__info-area__name {
@@ -378,7 +378,7 @@ a {
         margin-bottom: 60px; }
       .section-contact .section-contact__main-block .section-contact__main-block__info-area .section-contact__main-block__info-area__unordered-list {
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
         margin-left: 0;
         padding-left: 0; }
         .section-contact .section-contact__main-block .section-contact__main-block__info-area .section-contact__main-block__info-area__unordered-list .section-contact__main-block__info-area__unordered-list__item {
