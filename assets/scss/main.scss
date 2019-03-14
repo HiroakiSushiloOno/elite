@@ -340,6 +340,19 @@ a{
       font-size: $font-size-middle;
     }
   }
+  .section-services__contents-block{
+    display: flex;
+    .section-services__left-block{
+      width: 40%;
+      .section-services__left-block__img{
+        width: 70%;
+      }
+    }
+    .section-services__right-block{
+      width: 60%;
+
+    }
+  }
 }
 /* ==========================================================================
    Section Constact Styling

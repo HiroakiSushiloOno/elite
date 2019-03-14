@@ -314,6 +314,14 @@ a {
       font-weight: bold;
       color: #2D388B;
       font-size: 2em; }
+  .section-services .section-services__contents-block {
+    display: flex; }
+    .section-services .section-services__contents-block .section-services__left-block {
+      width: 40%; }
+      .section-services .section-services__contents-block .section-services__left-block .section-services__left-block__img {
+        width: 70%; }
+    .section-services .section-services__contents-block .section-services__right-block {
+      width: 60%; }
 
 /* ==========================================================================
    Section Constact Styling
