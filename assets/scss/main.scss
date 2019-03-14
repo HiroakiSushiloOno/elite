@@ -218,28 +218,32 @@ a{
    Header Styling
 ========================================================================== */
 .header{
-  padding: $spacer $section-spacer;
+  padding: 0 $section-spacer;
   width: $section-width;
   display: flex;
   background: $basic-color-cream;
   color: $basic-color-blue;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
   .header__logo{
     .header__logo__image{
-      width: 200px;
+      width: 80px;
     }
   }
   .header__logo{
     margin:  0;
   }
   .header__nav{
-    width: calc(90% - 200px);
-    margin-left: ($spacer * 4);
+    width: calc(90% - 80px);
     .header__nav__unordered-list{
       width: 100%;
       display: flex;
       justify-content: flex-end;
       .header__nav__unordered-list__item{
         color: $basic-color-blue;
+        margin: 0;
+        padding-left: 5%;
         .header__nav__unordered-list__item__icon{
           margin-right: 10px;
         }
@@ -288,11 +292,31 @@ a{
   width: $section-width;
   padding: $spacer $section-spacer ($spacer * 2) $section-spacer;
   text-align: center;
+  background: url(../images/bg_pattern.jpg);
+  background-size: 100%;
+  border-bottom: ($spacer * 2) $basic-color-blue solid;
   .section-company__title{
     font-size: $font-size-middle;
+    color: $basic-color-blue;
+    font-weight: bold;
   }
-  .section-company__block{
-    text-align: center;
+  .section-company__contents-block{
+    width: 100%;
+    display: flex;
+    .section-company__left-block{
+      width: 60%;
+      text-align: left;
+      .section-company__subtitle{
+        color: $basic-color-blue;
+        font-weight: bold;
+      }
+    }
+    .section-company__right-block{
+      width: 40%;
+      .section-company__right-block__img{
+        width: 70%;
+      }
+    }
   }
 }
 /* ==========================================================================
@@ -343,23 +367,21 @@ a{
 ========================================================================== */
 .section-contact{
   width: $section-width;
-  padding: 0 $section-spacer $spacer $section-spacer;
+  padding: $spacer $section-spacer ($spacer * 2) $section-spacer;
+  background: url(../images/bg_pattern.jpg);
+  background-size: 100%;
   .section-contact__title-block{
-    background: url('../images/bg_contact.png') no-repeat;
-    background-size: 100% 160px;
     text-align: center;
-    padding-top: ($spacer * 3);
-    height: 100px;
     .section-contact__title-block__title{
-      color: white;
+      font-weight: bold;
+      color: $basic-color-blue;
       font-size: $font-size-middle;
-      margin: 0;
     }
   }
   .section-contact__main-block{
     display: flex;
     .section-contact__main-block__form-area{
-      background: black;
+      background: $basic-color-blue;
       width: 60%;
       text-align: center;
       padding: ($spacer * 2) 0;
@@ -376,9 +398,9 @@ a{
         background: $basic-color-cream;
       }
       .section-contact__main-block__form-area__btn{
-        background: $basic-color-red;
+        background: white;
         border: none;
-        color: white;
+        color: $basic-color-blue;
         font-weight: bold;
         padding: 5px 15px;
         border-radius: 5px;
@@ -386,8 +408,9 @@ a{
     }
     .section-contact__main-block__info-area{
       width: calc(40% - 40px);
-      padding: ($spacer * 2) 0 ($spacer * 2) ($spacer * 2);
+      padding: ($spacer * 2);
       background: $basic-color-cream;
+      color: $basic-color-blue;
       .section-contact__main-block__info-area__name{
         font-weight: bold;
       }
@@ -396,11 +419,14 @@ a{
       }
       .section-contact__main-block__info-area__unordered-list{
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
         margin-left: 0;
         padding-left: 0;
         .section-contact__main-block__info-area__unordered-list__item{
-          font-size: $font-size-large;
+          font-size: $font-size-middle;
+          a{
+            color: $basic-color-blue;
+          }
         }
       }
     }
