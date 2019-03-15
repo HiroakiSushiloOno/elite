@@ -3,6 +3,13 @@
    Initialing browser difference and tag specific probrems.
    Details are under General Styling.
    ========================================================================== */
+[aos="fade"] {
+  opacity: 0;
+  transition-property: opacity; }
+
+[aos="fade"].aos-animate {
+  opacity: 1; }
+
 html {
   color: #222;
   font-size: 1em;
@@ -248,6 +255,8 @@ a {
         .header .header__nav .header__nav__unordered-list .header__nav__unordered-list__item a {
           color: #2D388B;
           font-weight: bold; }
+          .header .header__nav .header__nav__unordered-list .header__nav__unordered-list__item a:hover {
+            color: #9fa6e0; }
 
 /* ==========================================================================
    Footer Styling
@@ -394,5 +403,7 @@ a {
           font-size: 2em; }
           .section-contact .section-contact__main-block .section-contact__main-block__info-area .section-contact__main-block__info-area__unordered-list .section-contact__main-block__info-area__unordered-list__item a {
             color: #2D388B; }
+            .section-contact .section-contact__main-block .section-contact__main-block__info-area .section-contact__main-block__info-area__unordered-list .section-contact__main-block__info-area__unordered-list__item a:hover {
+              color: #9fa6e0; }
 
 /*# sourceMappingURL=main.css.map */

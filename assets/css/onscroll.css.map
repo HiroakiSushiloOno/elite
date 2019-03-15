@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,YAAa;EACX,OAAO,EAAE,CAAC;EACV,mBAAmB,EAAE,OAAO;;AAG9B,wBAAyB;EACvB,OAAO,EAAE,CAAC",
+"sources": ["../scss/onscroll.scss"],
+"names": [],
+"file": "onscroll.css"
+}

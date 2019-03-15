@@ -4,6 +4,7 @@
    Details are under General Styling.
    ========================================================================== */
 @import "variables.scss";
+@import "onscroll.scss";
 html {
     color: #222;
     font-size: 1em;
@@ -256,6 +257,9 @@ a{
         a{
           color: $basic-color-blue;
           font-weight: bold;
+          &:hover{
+            color: $basic-color-light-blue;
+          }
         }
       }
     }
@@ -435,6 +439,9 @@ a{
           font-size: $font-size-middle;
           a{
             color: $basic-color-blue;
+            &:hover{
+              color: $basic-color-light-blue;
+            }
           }
         }
       }
