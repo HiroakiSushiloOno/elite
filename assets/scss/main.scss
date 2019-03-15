@@ -227,8 +227,9 @@ a{
   position: sticky;
   top: 0;
   .header__logo{
+    padding: 10px 0;
     .header__logo__image{
-      width: 80px;
+      width: 120px;
     }
   }
   .header__logo{
@@ -236,6 +237,7 @@ a{
   }
   .header__nav{
     width: calc(90% - 80px);
+    padding-top: 20px;
     .header__nav__unordered-list{
       width: 100%;
       display: flex;
@@ -275,7 +277,7 @@ a{
     text-align: center;
     margin: ($spacer * 0.5) 0 0 0;
     .footer__logo__image{
-      width: 70px;
+      width: 100px;
       display: inline;
     }
     .footer__copyright{
@@ -283,6 +285,7 @@ a{
       display: inline;
       padding: 0;
       font-size: $font-size-small;
+      color: $basic-color-blue;
     }
   }
 }
@@ -290,6 +293,7 @@ a{
    Section Company Styling
 ========================================================================== */
 .section-company{
+  height: calc(100vh - 100px);
   width: $section-width;
   padding: $spacer $section-spacer ($spacer * 2) $section-spacer;
   text-align: center;
@@ -314,6 +318,7 @@ a{
       }
       .section-company__left-block__text{
         margin-top: 0px;
+        margin-bottom: 10vh;
       }
     }
     .section-company__right-block{
@@ -328,6 +333,7 @@ a{
    Section Services Styling
 ========================================================================== */
 .section-services{
+  height: calc(100vh - 100px);
   width: $section-width;
   padding: $spacer $section-spacer ($spacer * 2) $section-spacer;
   background: url(../images/bg_pattern.jpg);
@@ -353,7 +359,13 @@ a{
       width: 60%;
       .section-services__right-block__list-item{
         padding-bottom: 20px;
+        margin-bottom: 10vh;
       }
+    }
+  }
+  .section-services__list{
+    .section-services__list__item{
+      margin-top: 10vh;
     }
   }
 }
@@ -361,6 +373,7 @@ a{
    Section Constact Styling
 ========================================================================== */
 .section-contact{
+  height: calc(100vh - 100px);
   width: $section-width;
   padding: $spacer $section-spacer ($spacer * 2) $section-spacer;
   background: url(../images/bg_pattern.jpg);
@@ -410,7 +423,8 @@ a{
         font-weight: bold;
       }
       .section-contact__main-block__info-area__mail-and-phone{
-        margin-bottom: ($spacer * 3)
+        margin-bottom: ($spacer * 3);
+        color: $basic-color-black;
       }
       .section-contact__main-block__info-area__unordered-list{
         display: flex;

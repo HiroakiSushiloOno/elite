@@ -201,14 +201,14 @@ textarea {
 ========================================================================== */
 body {
   font-family: 'Poiret One', cursive;
-  color: #262626; }
+  color: #1a1a1a; }
 
 ul {
   list-style: none; }
 
 a {
   text-decoration: none;
-  color: #262626; }
+  color: #1a1a1a; }
 
 /* ==========================================================================
    Header Styling
@@ -223,12 +223,15 @@ a {
   /* Safari */
   position: sticky;
   top: 0; }
-  .header .header__logo .header__logo__image {
-    width: 80px; }
+  .header .header__logo {
+    padding: 10px 0; }
+    .header .header__logo .header__logo__image {
+      width: 120px; }
   .header .header__logo {
     margin: 0; }
   .header .header__nav {
-    width: calc(90% - 80px); }
+    width: calc(90% - 80px);
+    padding-top: 20px; }
     .header .header__nav .header__nav__unordered-list {
       width: 100%;
       display: flex;
@@ -261,18 +264,20 @@ a {
     text-align: center;
     margin: 10px 0 0 0; }
     .footer .footer__logo .footer__logo__image {
-      width: 70px;
+      width: 100px;
       display: inline; }
     .footer .footer__logo .footer__copyright {
       margin: 0;
       display: inline;
       padding: 0;
-      font-size: 1em; }
+      font-size: 1em;
+      color: #2D388B; }
 
 /* ==========================================================================
    Section Company Styling
 ========================================================================== */
 .section-company {
+  height: calc(100vh - 100px);
   width: 90%;
   padding: 20px 5% 40px 5%;
   text-align: center;
@@ -294,7 +299,8 @@ a {
         font-weight: bold;
         margin-bottom: 0; }
       .section-company .section-company__contents-block .section-company__left-block .section-company__left-block__text {
-        margin-top: 0px; }
+        margin-top: 0px;
+        margin-bottom: 10vh; }
     .section-company .section-company__contents-block .section-company__right-block {
       width: 40%; }
       .section-company .section-company__contents-block .section-company__right-block .section-company__right-block__img {
@@ -304,6 +310,7 @@ a {
    Section Services Styling
 ========================================================================== */
 .section-services {
+  height: calc(100vh - 100px);
   width: 90%;
   padding: 20px 5% 40px 5%;
   background: url(../images/bg_pattern.jpg);
@@ -324,12 +331,16 @@ a {
     .section-services .section-services__contents-block .section-services__right-block {
       width: 60%; }
       .section-services .section-services__contents-block .section-services__right-block .section-services__right-block__list-item {
-        padding-bottom: 20px; }
+        padding-bottom: 20px;
+        margin-bottom: 10vh; }
+  .section-services .section-services__list .section-services__list__item {
+    margin-top: 10vh; }
 
 /* ==========================================================================
    Section Constact Styling
 ========================================================================== */
 .section-contact {
+  height: calc(100vh - 100px);
   width: 90%;
   padding: 20px 5% 40px 5%;
   background: url(../images/bg_pattern.jpg);
@@ -372,7 +383,8 @@ a {
       .section-contact .section-contact__main-block .section-contact__main-block__info-area .section-contact__main-block__info-area__name {
         font-weight: bold; }
       .section-contact .section-contact__main-block .section-contact__main-block__info-area .section-contact__main-block__info-area__mail-and-phone {
-        margin-bottom: 60px; }
+        margin-bottom: 60px;
+        color: #1a1a1a; }
       .section-contact .section-contact__main-block .section-contact__main-block__info-area .section-contact__main-block__info-area__unordered-list {
         display: flex;
         justify-content: space-between;
