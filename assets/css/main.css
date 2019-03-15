@@ -253,7 +253,8 @@ a {
   padding: 0 5%;
   width: 90%;
   display: flex;
-  justify-content: flex-end; }
+  justify-content: flex-end;
+  background: #F3F3F3; }
   .footer .footer__logo {
     display: inline-block;
     width: 70%;
