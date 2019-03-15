@@ -313,7 +313,8 @@ a {
     .section-company .section-company__contents-block .section-company__right-block {
       width: 40%; }
       .section-company .section-company__contents-block .section-company__right-block .section-company__right-block__img {
-        width: 70%; }
+        width: 70%;
+        margin-top: 40px; }
 
 /* ==========================================================================
    Section Services Styling
@@ -336,7 +337,8 @@ a {
     .section-services .section-services__contents-block .section-services__left-block {
       width: 40%; }
       .section-services .section-services__contents-block .section-services__left-block .section-services__left-block__img {
-        width: 70%; }
+        width: 70%;
+        margin-top: 40px; }
     .section-services .section-services__contents-block .section-services__right-block {
       width: 60%; }
       .section-services .section-services__contents-block .section-services__right-block .section-services__right-block__list-item {
