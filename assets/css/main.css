@@ -286,9 +286,8 @@ a {
    Section Company Styling
 ========================================================================== */
 .section-company {
-  height: calc(100vh - 100px);
   width: 90%;
-  padding: 20px 5% 40px 5%;
+  padding: 60px 5% 40px 5%;
   text-align: center;
   background: url(../images/bg_pattern.jpg);
   background-size: 100%;
@@ -320,9 +319,8 @@ a {
    Section Services Styling
 ========================================================================== */
 .section-services {
-  height: calc(100vh - 100px);
   width: 90%;
-  padding: 20px 5% 40px 5%;
+  padding: 60px 5% 40px 5%;
   background: url(../images/bg_pattern.jpg);
   background-size: 100%;
   border-bottom: 40px #2D388B solid; }
@@ -351,9 +349,8 @@ a {
    Section Constact Styling
 ========================================================================== */
 .section-contact {
-  height: calc(100vh - 100px);
   width: 90%;
-  padding: 20px 5% 40px 5%;
+  padding: 60px 5% 40px 5%;
   background: url(../images/bg_pattern.jpg);
   background-size: 100%; }
   .section-contact .section-contact__title-block {
