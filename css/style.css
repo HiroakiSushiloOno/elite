@@ -637,7 +637,22 @@ h6 {
   padding-left: 80px;
 }
 
+#contacto{
 
+}
+
+#footer{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 5%; 
+}
+#footer .footer__logo{
+  height: 100px;
+}
+
+#footer .footer__logo img{
+  max-height: 36px;
+}
 
 /*--------------------------------------------------------------
 # Responsive Media Queries
