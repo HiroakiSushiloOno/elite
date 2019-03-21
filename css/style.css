@@ -637,14 +637,48 @@ h6 {
   padding-left: 80px;
 }
 
-#contacto{
-
+#contact{
+  padding: 60px 0 40px 0;
+  box-shadow: inset 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
 }
-
+#contact .main-block{
+  display: flex;
+  justify-content: space-between;
+}
+#contact .main-block__form-area{
+  width: 60%;
+  text-align: center;
+  padding: ($spacer * 2) 0;
+  background: blue;
+}
+#contact .main-block__form-area__input{
+  display: block;
+  margin: 0 auto $spacer auto;
+  width: 70%;
+  background: ;
+}
+#contact .main-block__form-area__textarea{
+  display: block;
+  margin: 0 auto $spacer auto;
+  width: 70%;
+}
+#contact .main-block__form-area__btn{
+  background: white;
+  border: none;
+  color: $basic-color-blue;
+  font-weight: bold;
+  padding: 5px 15px;
+  border-radius: 5px;
+}
+#contact .main-block__form-area__textarea{
+  width: 80%;
+}
+#contact .main-block__info-area{
+}
 #footer{
   display: flex;
   justify-content: space-between;
-  padding: 20px 5%; 
+  padding: 20px 5%;
 }
 #footer .footer__logo{
   height: 100px;
