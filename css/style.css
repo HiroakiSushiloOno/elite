@@ -643,29 +643,29 @@ h6 {
 }
 #contact .main-block{
   display: flex;
-  justify-content: space-between;
 }
 #contact .main-block__form-area{
   width: 60%;
   text-align: center;
-  padding: ($spacer * 2) 0;
-  background: blue;
+  padding: 40px 0;
+  background: #0000b3;
+  box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
 }
 #contact .main-block__form-area__input{
   display: block;
-  margin: 0 auto $spacer auto;
+  margin: 0 auto 20px auto;
   width: 70%;
   background: ;
 }
 #contact .main-block__form-area__textarea{
   display: block;
-  margin: 0 auto $spacer auto;
+  margin: 0 auto 20px auto;
   width: 70%;
 }
 #contact .main-block__form-area__btn{
   background: white;
   border: none;
-  color: $basic-color-blue;
+  color: #000080;
   font-weight: bold;
   padding: 5px 15px;
   border-radius: 5px;
@@ -674,6 +674,29 @@ h6 {
   width: 80%;
 }
 #contact .main-block__info-area{
+  padding: 40px;
+  background: ;
+  color: #0000b3;
+}
+#contact .main-block__info-are__name{
+  font-weight: bold;
+}
+#contact .main-block__info-area__mail-and-phone{
+  margin-bottom: 60px;
+  color: black;
+}
+#contact .main-block__info-area__unordered-list{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 0;
+  padding-left: 0;
+}
+#contact .main-block__info-area__unordered-list__item{
+  list-style: none;
+}
+#contact .main-block__info-area__unordered-list__item a{
+  font-size: 2em;
+  color: #0000b3;
 }
 #footer{
   display: flex;
@@ -729,6 +752,14 @@ h6 {
   #why-us .card {
     margin: 0;
   }
+  #contact .main-block{
+    display: block;
+    text-align: center;
+  }
+  #contact .main-block__form-area{
+    width: 100%;
+  }
+
 }
 
 @media (max-width: 768px) {
