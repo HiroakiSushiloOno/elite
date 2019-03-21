@@ -696,13 +696,13 @@ h6 {
   list-style: none;
 }
 #contact .main-block__info-area__unordered-list__item a{
-  font-size: 2em;
+  font-size: 3em;
   color: #0000b3;
 }
 #footer{
   display: flex;
   justify-content: space-between;
-  padding: 20px 5%;
+  padding: 40px;
 }
 #footer .footer__logo{
   height: 100px;
@@ -763,7 +763,9 @@ h6 {
   #contact .main-block__info-area{
     width: 100%;
   }
-
+  #contact .main-block__info-area__unordered-list{
+    padding: 0 10%;
+  }
 }
 
 @media (max-width: 768px) {
