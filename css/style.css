@@ -649,7 +649,7 @@ h6 {
   text-align: center;
   padding: 40px 0;
   background: #0000b3;
-  box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
+  box-shadow:  0px 0px 12px 0px rgba(0, 0, 0, 0.1);
 }
 #contact .main-block__form-area__input{
   display: block;
@@ -677,6 +677,7 @@ h6 {
   padding: 40px;
   background: ;
   color: #0000b3;
+  width: 40%;
 }
 #contact .main-block__info-are__name{
   font-weight: bold;
@@ -757,6 +758,9 @@ h6 {
     text-align: center;
   }
   #contact .main-block__form-area{
+    width: 100%;
+  }
+  #contact .main-block__info-area{
     width: 100%;
   }
 
