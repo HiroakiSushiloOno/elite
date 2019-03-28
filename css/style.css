@@ -164,7 +164,7 @@ h6 {
 #intro {
   width: 100%;
   position: relative;
-  background: url("../img/intro-bg.png") center bottom no-repeat;
+  background: url("../img/imagen99.jpg") center bottom no-repeat;
   background-size: cover;
   padding: 130px 0 120px 0;
 }
@@ -648,7 +648,7 @@ h6 {
   width: 60%;
   text-align: center;
   padding: 40px 0;
-  background: #0000b3;
+  background: #040472;
   box-shadow:  0px 0px 12px 0px rgba(0, 0, 0, 0.1);
 }
 #contact .main-block__form-area__input{
@@ -657,6 +657,7 @@ h6 {
   width: 70%;
   background: ;
 }
+
 #contact .main-block__form-area__textarea{
   display: block;
   margin: 0 auto 20px auto;
@@ -665,7 +666,7 @@ h6 {
 #contact .main-block__form-area__btn{
   background: white;
   border: none;
-  color: #000080;
+  color: #040472;
   font-weight: bold;
   padding: 5px 15px;
   border-radius: 5px;
@@ -676,7 +677,7 @@ h6 {
 #contact .main-block__info-area{
   padding: 40px;
   background: ;
-  color: #0000b3;
+  color: #040472;
   width: 40%;
 }
 #contact .main-block__info-are__name{
@@ -697,7 +698,7 @@ h6 {
 }
 #contact .main-block__info-area__unordered-list__item a{
   font-size: 3em;
-  color: #0000b3;
+  color: #040472;
 }
 #footer{
   display: flex;
@@ -752,7 +753,9 @@ h6 {
 
   #why-us .card {
     margin: 0;
+  
   }
+
   #contact .main-block{
     display: block;
     text-align: center;
@@ -808,4 +811,8 @@ h6 {
   #intro {
     padding: 100px 0 20px 0;
   }
+}
+#imgz {
+  width: 80%;
+
 }
