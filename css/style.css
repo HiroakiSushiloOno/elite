@@ -36,6 +36,10 @@ h6 {
   padding: 0;
 }
 
+.img--rounded-frame{
+  border-radius: 15px;
+}
+
 /* Back to top button */
 
 .back-to-top {
@@ -753,7 +757,7 @@ h6 {
 
   #why-us .card {
     margin: 0;
-  
+
   }
 
   #contact .main-block{
