@@ -37,8 +37,10 @@ h6 {
 }
 
 .img--rounded-frame{
-  border-radius: 15px;
+  border-radius: 10px;
   position: relative;
+  box-shadow: 0 5px 10px 0;
+  background: #fff;
 }
 
 
@@ -170,8 +172,7 @@ h6 {
 #intro {
   width: 100%;
   position: relative;
-  background: url("../img/imagen99.jpg") center bottom no-repeat;
-  background-size: cover;
+  background: url("img/imagen99.jpg") center bottom no-repeat;
   padding: 130px 0 120px 0;
 }
 
