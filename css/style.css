@@ -655,7 +655,7 @@ h6 {
   width: 60%;
   text-align: center;
   padding: 40px 0;
-  background: #040472;
+  background: #0000e6;
   box-shadow:  0px 0px 12px 0px rgba(0, 0, 0, 0.1);
 }
 #contact .main-block__form-area__input{
@@ -706,6 +706,9 @@ h6 {
 #contact .main-block__info-area__unordered-list__item a{
   font-size: 3em;
   color: #040472;
+}
+#contact .main-block__info-area__unordered-list__item a:hover{
+  color: #0000e6;
 }
 #footer{
   display: flex;
